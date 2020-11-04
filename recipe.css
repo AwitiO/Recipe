@@ -1,16 +1,5 @@
 /* Css properties */
 
-p{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: white;
-    color:#404040;
-    font-size: 11pt;
-}
-
-body{background-image:url("./images/silverware.jpg");
-    background-repeat: repeat;
-    background-attachment: fixed;
-}
 img{
     width: 280px;
     height: 280px;
@@ -46,10 +35,19 @@ blockquote{
     background-color: #FFFFA8;
 } 
 
-ul.custom-list{
-    list-style-image:url("./images/pie_bullet.png"); 
-   }
 span.tip {
 text-decoration: underline;
 }
 
+ul.custom-list li{
+    list-style-image: url("./images/pie_bullet.png");
+}
+body{
+    background: url("./images/silverware.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    color:#404040;
+    font-size: 11pt;
+}
